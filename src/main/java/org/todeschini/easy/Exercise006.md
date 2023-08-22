@@ -1,39 +1,39 @@
-Factorial Computation - Recursion
-Introduction:
+# Factorial Computation - Recursion
+
+[code](Exercise006.java)
+
+## Introduction:
 
 Calculating the factorial of a number is a common problem in mathematics and computer science. The factorial of a non-negative integer n is the product of all positive integers less than or equal to n. It is denoted by n!, and defined by the product n! = n * (n-1) * (n-2) * ... * 3 * 2 * 1. Factorial of 0 is defined as 1. This problem will help you learn how to solve problems recursively in Java.
 
-Steps:
+## Steps
 
-If the input number is less than 0, throw an IllegalArgumentException because factorial is undefined for negative numbers.
+1. If the input number is less than 0, throw an IllegalArgumentException because factorial is undefined for negative numbers.
+2. If the input number is 0 or 1, return 1 because the factorial of 0 and 1 is 1.
+3. Otherwise, return the product of the current number and the factorial of the previous number. This is done by recursively calling the function with the input number decremented by 1.
 
-If the input number is 0 or 1, return 1 because the factorial of 0 and 1 is 1.
+## Requirements
 
-Otherwise, return the product of the current number and the factorial of the previous number. This is done by recursively calling the function with the input number decremented by 1.
+1. Write a public method named factorial that takes an integer as input and returns a long.
+2. The factorial method should throw an IllegalArgumentException if the input number is negative.
+3. The factorial method should return the factorial of the input number calculated using recursion.
 
-Requirements:
-
-Write a public method named factorial that takes an integer as input and returns a long.
-
-The factorial method should throw an IllegalArgumentException if the input number is negative.
-
-The factorial method should return the factorial of the input number calculated using recursion.
-
-Input:
+Input
 
 A single integer n (0 ≤ n ≤ 20).
 
-Output:
+Output
 
 The factorial of the input number n as a long.
 
-Examples:
+## Examples
 
 Exercise.factorial(5);  // Returns: 120
 Exercise.factorial(0);  // Returns: 1
 Exercise.factorial(1);  // Returns: 1
 Exercise.factorial(20); // Returns: 2432902008176640000L
-Constraints:
+
+## Constraints:
 
 The input number will always be between 0 and 20, inclusive.
 

@@ -1,37 +1,34 @@
-Finding the Second Largest Element - Array Operations
-Introduction:
+# Finding the Second Largest Element - Array Operations
+
+[code](Exercise005.java)
+
+## Introduction:
 
 In this exercise, you will be implementing a function that finds the second-largest element in a given array. The array may contain duplicates, and the elements are not necessarily in any particular order. You are required to traverse the array only once.
 
-Steps:
+## Steps
 
-Initialize two variables, firstLargest and secondLargest, with the smallest possible integer value.
+1. Initialize two variables, firstLargest and secondLargest, with the smallest possible integer value.
+2. Traverse through the array.
+3. For each element, compare it with firstLargest.
+4. If the element is greater than firstLargest, update secondLargest with the value of firstLargest, and then update firstLargest with the value of the element.
+5. If the element is smaller than firstLargest and greater than secondLargest, then update secondLargest with the value of the element.
+6. After traversing through the array, return secondLargest.
 
-Traverse through the array.
+## Requirements
 
-For each element, compare it with firstLargest.
+1. You should have a function named secondLargest.
+2. The function secondLargest takes an array of integers as an input and returns the second-largest integer.
 
-If the element is greater than firstLargest, update secondLargest with the value of firstLargest, and then update firstLargest with the value of the element.
-
-If the element is smaller than firstLargest and greater than secondLargest, then update secondLargest with the value of the element.
-
-After traversing through the array, return secondLargest.
-
-Requirements:
-
-You should have a function named secondLargest.
-
-The function secondLargest takes an array of integers as an input and returns the second-largest integer.
-
-Input:
+Input
 
 An array of integers. The array might contain duplicate values and the values are not in any specific order.
 
-Output:
+Outpu:
 
 An integer which is the second largest in the input array.
 
-Examples:
+## Examples
 
 secondLargest(new int[]{1, 2, 5, 4, 3}); // Output: 4
 secondLargest(new int[]{5, 5, 5, 4, 4}); // Output: 4
@@ -43,7 +40,7 @@ Expected Time Complexity:
 
 The time complexity of this function is O(n), where n is the length of the array.
 
-Expected Auxiliary Space:
+Expected Auxiliary Space
 
 The auxiliary space complexity of this function is O(1), as no additional data structures are used.
 
