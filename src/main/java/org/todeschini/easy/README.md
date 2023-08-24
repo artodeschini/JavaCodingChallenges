@@ -27,3 +27,11 @@
 ## Remove Spaces from a String - String Manipulation
 
 [code](Exercise007.java)
+
+## Swap Two Numbers - Without Using Third Variable
+
+[code](Exercise008.java)
+
+# Count Number of Digits - Mathematical Approach
+
+[code](Exercise009.java)
