@@ -32,6 +32,14 @@
 
 [code](Exercise008.java)
 
-# Count Number of Digits - Mathematical Approach
+## Count Number of Digits - Mathematical Approach
 
 [code](Exercise009.java)
+
+## Compute Nth Fibonacci Number - Recursion and Memoization recursice and with stream
+
+[code](Exercise010.java)
+
+## Toggle Case of Characters - String Operations
+
+[code](Exercise011.java)
