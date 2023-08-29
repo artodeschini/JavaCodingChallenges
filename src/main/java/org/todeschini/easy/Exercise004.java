@@ -1,5 +1,7 @@
 package org.todeschini.easy;
 
+import java.util.stream.IntStream;
+
 public class Exercise004 {
 
     public static String reverseString(String str){
@@ -8,5 +10,17 @@ public class Exercise004 {
         StringBuilder sb = new StringBuilder(str);
 
         return str != null ? sb.reverse().toString() : str;
+    }
+
+    public static String reverseStringWithStream(String str) {
+        return IntStream.range(0, str.length())
+                .mapToObj(i -> str.charAt(str.length() - i - 1))
+                .collect(StringBuilder::new, StringBuilder::append, StringBuilder::append)
+                .toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(reverseString("ABC"));
+        System.out.println(reverseStringWithStream("ABC"));
     }
 }

@@ -1,5 +1,6 @@
 package org.todeschini.easy;
 
+import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -27,7 +28,18 @@ public class Exercise002 {
         return count;
     }
 
+    public static int countVowelsWithStream(String str){
+        int count = Arrays.asList(str).stream()
+                .map(s -> s.replaceAll("[aeiou]", "").length())
+                .reduce(0, Integer::sum);
+//        return Arrays.asList(str).stream()
+//                .map(s -> s.replaceAll("[aeiou]", "").length())
+//                .reduce(0, Integer::sum);
+        return count;
+    }
+
     public static void main(String[] args) {
         System.out.println(countVowels("Emanuelle"));
+        System.out.println(countVowelsWithStream("Emanuelle"));
     }
 }
