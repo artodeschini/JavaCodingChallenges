@@ -1,45 +1,49 @@
 # Section 1: Java Easy Coding Challenges
 
-## Finding the Smallest Element - Array Operations
+## 001 Finding the Smallest Element - Array Operations
 
 [code](Exercise001.java) with Stream
 
-## Counting Vowels - String Operations
+## 002 Counting Vowels - String Operations
 
 [code](Exercise002.java) with Regex
 
-## Calculating String Length - String Operations
+## 003 Calculating String Length - String Operations
 
 [code](Exercise003.java) 
 
-## Reversing a String - String Operations
+## 004 Reversing a String - String Operations
 
 [code](Exercise004.java) with StringBuilder
 
-## Finding the Second Largest Element - Array Operations
+## 005 Finding the Second Largest Element - Array Operations
 
 [code](Exercise005.java) with Stream
 
-## Factorial Computation - Recursion
+## 006 Factorial Computation - Recursion
 
 [code](Exercise006.java) with Stream
 
-## Remove Spaces from a String - String Manipulation
+## 007 Remove Spaces from a String - String Manipulation
 
 [code](Exercise007.java)
 
-## Swap Two Numbers - Without Using Third Variable
+## 008 Swap Two Numbers - Without Using Third Variable
 
 [code](Exercise008.java)
 
-## Count Number of Digits - Mathematical Approach
+## 009 Count Number of Digits - Mathematical Approach
 
 [code](Exercise009.java)
 
-## Compute Nth Fibonacci Number - Recursion and Memoization recursice and with stream
+## 010 Compute Nth Fibonacci Number - Recursion and Memoization recursice and with stream
 
 [code](Exercise010.java)
 
-## Toggle Case of Characters - String Operations
+## 011 Toggle Case of Characters - String Operations
 
 [code](Exercise011.java)
+
+## 012 Count Digit Frequency - Number Operations
+
+[code](Exercise012.java)
