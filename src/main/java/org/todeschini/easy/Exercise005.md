@@ -17,7 +17,7 @@ In this exercise, you will be implementing a function that finds the second-larg
 
 ## Requirements
 
-1. You should have a function named secondLargest.
+1. You should have a function named secondLargest should be defined in the Exercise005 class..
 2. The function secondLargest takes an array of integers as an input and returns the second-largest integer.
 
 Input
@@ -30,8 +30,9 @@ An integer which is the second largest in the input array.
 
 ## Examples
 
-secondLargest(new int[]{1, 2, 5, 4, 3}); // Output: 4
-secondLargest(new int[]{5, 5, 5, 4, 4}); // Output: 4
+Exercise005.secondLargest(new int[]{1, 2, 5, 4, 3}); // Output: 4
+Exercise005.secondLargest(new int[]{5, 5, 5, 4, 4}); // Output: 4
+
 Constraints:
 
 The input array should have at least two elements.

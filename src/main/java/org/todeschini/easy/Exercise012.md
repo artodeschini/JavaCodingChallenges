@@ -18,7 +18,7 @@ In this challenge, you are tasked with creating a function countDigitFrequency t
 
 ## Requirements
 
-1. The function countDigitFrequency should be defined in the Exercise class.
+1. The function countDigitFrequency should be defined in the Exercise012 class.
 2. The function countDigitFrequency should return an integer, the frequency of the digit in the number.
 
 Input: A long number (0 ≤ number ≤ 10^19) and an integer digit (0 ≤ digit ≤ 9).
@@ -26,10 +26,10 @@ Output: An integer, the frequency of the digit in the number.
 
 ## Examples
 
-Exercise.countDigitFrequency(12345, 1); // Returns 1
-Exercise.countDigitFrequency(23456, 5); // Returns 1
-Exercise.countDigitFrequency(12345, 6); // Returns 0
-Exercise.countDigitFrequency(11111, 1); // Returns 5
+Exercise012.countDigitFrequency(12345, 1); // Returns 1
+Exercise012.countDigitFrequency(23456, 5); // Returns 1
+Exercise012.countDigitFrequency(12345, 6); // Returns 0
+Exercise012.countDigitFrequency(11111, 1); // Returns 5
 
 Constraints: The number will be a non-negative long, and the digit will be a single digit integer (0-9).
 

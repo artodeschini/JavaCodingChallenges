@@ -14,7 +14,7 @@
 
 ## Requirements:
 
-1. The function countVowels should be defined in the Exercise class.
+1. The function countVowels should be defined in the Exercise002 class.
 2. The function countVowels should return an integer indicating the number of vowels in the input string.
 
 Input: A string str (1 ≤ |str| ≤ 10^5) consisting of printable ASCII characters.
@@ -22,10 +22,11 @@ Output: An integer representing the number of vowels in str.
 
 ## Examples:
 
-Exercise.countVowels("aeiou"); // Returns 5
-Exercise.countVowels("bcdfg"); // Returns 0
-Exercise.countVowels("Hello World!"); // Returns 3
-Exercise.countVowels(""); // Returns 0
+Exercise002.countVowels("aeiou"); // Returns 5
+Exercise002.countVowels("bcdfg"); // Returns 0
+Exercise002.countVowels("Hello World!"); // Returns 3
+Exercise002.countVowels(""); // Returns 0
+
 Constraints: str can contain any printable ASCII characters. The number of characters in str (|str|) does not exceed 10^5.
 
 Expected Time Complexity: O(n), where n is the length of the input string.

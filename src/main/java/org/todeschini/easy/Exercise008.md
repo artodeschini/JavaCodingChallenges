@@ -16,7 +16,7 @@ In this challenge, you will implement a function named swapNumbers that swaps th
 
 ## Requirements
 
-1. The function swapNumbers should be defined in the Exercise class.
+1. The function swapNumbers should be defined in the Exercise008 class.
 2. The function swapNumbers should return an array of two integers after swapping.
 
 Input: Two integers a and b.
@@ -24,10 +24,10 @@ Output: An array of two integers [a, b] after swapping.
 
 ## Examples
 
-Exercise.swapNumbers(10, 5); // Returns [5, 10]
-Exercise.swapNumbers(2, -3); // Returns [-3, 2]
-Exercise.swapNumbers(99, 0); // Returns [0, 99]
-Exercise.swapNumbers(32, 32); // Returns [32, 32]
+Exercise008.swapNumbers(10, 5); // Returns [5, 10]
+Exercise008.swapNumbers(2, -3); // Returns [-3, 2]
+Exercise008.swapNumbers(99, 0); // Returns [0, 99]
+Exercise008.swapNumbers(32, 32); // Returns [32, 32]
 
 Constraints:
 

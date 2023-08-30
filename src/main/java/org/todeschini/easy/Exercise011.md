@@ -17,7 +17,7 @@ In this challenge, you are required to create a function toggleCase that will to
 
 ## Requirements
 
-1. The function toggleCase should be defined in the Exercise class.
+1. The function toggleCase should be defined in the Exercise011 class.
 2. The function toggleCase should return a String, the input string with the case of each character toggled.
 
 Input: A string s (0 ≤ s.length ≤ 1000).
@@ -25,10 +25,11 @@ Output: A string, the input string s with the case of each character toggled.
 
 ## Examples
 
-Exercise.toggleCase("hello"); // Returns "HELLO"
-Exercise.toggleCase("WORLD"); // Returns "world"
-Exercise.toggleCase("Hello World"); // Returns "hELLO wORLD"
-Exercise.toggleCase(""); // Returns ""
+Exercise011.toggleCase("hello"); // Returns "HELLO"
+Exercise011.toggleCase("WORLD"); // Returns "world"
+Exercise011.toggleCase("Hello World"); // Returns "hELLO wORLD"
+Exercise011.toggleCase(""); // Returns ""
+
 Constraints: The input string s will contain only ASCII characters and its length will be in the range from 0 to 1000.
 
 Expected Time Complexity: O(n), where n is the length of the input string.

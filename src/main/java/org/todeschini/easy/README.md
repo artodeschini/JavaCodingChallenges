@@ -47,3 +47,7 @@
 ## 012 Count Digit Frequency - Number Operations
 
 [code](Exercise012.java)
+
+## 013 Separate 0's and 1's from an Array - Array Segregation
+
+[code](Exercise013.java)

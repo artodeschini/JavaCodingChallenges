@@ -14,7 +14,7 @@ Calculating the factorial of a number is a common problem in mathematics and com
 
 ## Requirements
 
-1. Write a public method named factorial that takes an integer as input and returns a long.
+1. Write a public method named factorial that takes an integer as input and returns a long should be defined in the Exercise006 class.
 2. The factorial method should throw an IllegalArgumentException if the input number is negative.
 3. The factorial method should return the factorial of the input number calculated using recursion.
 
@@ -28,10 +28,10 @@ The factorial of the input number n as a long.
 
 ## Examples
 
-Exercise.factorial(5);  // Returns: 120
-Exercise.factorial(0);  // Returns: 1
-Exercise.factorial(1);  // Returns: 1
-Exercise.factorial(20); // Returns: 2432902008176640000L
+Exercise006.factorial(5);  // Returns: 120
+Exercise006.factorial(0);  // Returns: 1
+Exercise006.factorial(1);  // Returns: 1
+Exercise006.factorial(20); // Returns: 2432902008176640000L
 
 ## Constraints:
 

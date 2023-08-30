@@ -16,7 +16,7 @@ In this challenge, you will implement a function named findSmallestElement that 
 
 ## Requirements:
 
-The function findSmallestElement should be defined in the Exercise class.
+The function findSmallestElement should be defined in the Exercise001 class.
 The function findSmallestElement should return an integer representing the smallest element in the array.
 
 ## sample
@@ -26,10 +26,10 @@ Output: An integer that represents the smallest element in the given array.
 
 Examples:
 
-Exercise.findSmallestElement(new int[]{1, 2, 3, 4, 5}); // Returns 1
-Exercise.findSmallestElement(new int[]{2, -3, 4}); // Returns -3
-Exercise.findSmallestElement(new int[]{0, 99, 1001, 32}); // Returns 0
-Exercise.findSmallestElement(new int[]{}); // Returns Integer.MAX_VALUE
+Exercise001.findSmallestElement(new int[]{1, 2, 3, 4, 5}); // Returns 1
+Exercise001.findSmallestElement(new int[]{2, -3, 4}); // Returns -3
+Exercise001.findSmallestElement(new int[]{0, 99, 1001, 32}); // Returns 0
+Exercise001.findSmallestElement(new int[]{}); // Returns Integer.MAX_VALUE
 
 ## Constraints:
 

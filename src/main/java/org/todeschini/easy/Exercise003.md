@@ -14,7 +14,7 @@ In this challenge, you will implement a function named stringLength that calcula
 
 ## Requirements
 
-1. The function stringLength should be defined in the Exercise class.
+1. The function stringLength should be defined in the Exercise003 class.
 2. The function stringLength should return an integer indicating the length of the input string.
 
 Input: A string str (1 ≤ |str| ≤ 10^5) consisting of printable ASCII characters.

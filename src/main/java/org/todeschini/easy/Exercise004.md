@@ -16,7 +16,7 @@
 
 ## Requirements
 
-1. The function reverseString should be defined in the Exercise class.
+1. The function reverseString should be defined in the Exercise004 class.
 2. The function reverseString should return a string that is the reverse of the input string.
 
 Input: A string str (0 ≤ |str| ≤ 10^5) consisting of printable ASCII characters.

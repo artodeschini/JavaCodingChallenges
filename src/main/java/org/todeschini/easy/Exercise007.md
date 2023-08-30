@@ -14,7 +14,7 @@ In this exercise, you will create a method to remove all spaces from a given str
 
 ## Requirements
 
-1. The function removeSpaces should be defined in the Exercise class.
+1. The function removeSpaces should be defined in the Exercise007 class.
 2. The removeSpaces function takes a string as input and returns a string.
 3. The function should remove all spaces from the input string.
 
@@ -28,9 +28,10 @@ The modified string, which does not contain any spaces.
 
 ## Examples
 
-Exercise.removeSpaces("Hello World") returns "HelloWorld"
-Exercise.removeSpaces("Java  Programming") returns "JavaProgramming"
-Exercise.removeSpaces(" Java ") returns "Java"
+Exercise007.removeSpaces("Hello World") returns "HelloWorld"
+Exercise007.removeSpaces("Java  Programming") returns "JavaProgramming"
+Exercise007.removeSpaces(" Java ") returns "Java"
+
 Constraints:
 
 The input string may contain leading, trailing, and multiple spaces between words.

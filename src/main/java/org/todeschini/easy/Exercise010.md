@@ -17,7 +17,7 @@ In this challenge, you are tasked with creating a function nthFibonacci that wil
 
 ## Requirements
 
-1. The function nthFibonacci should be defined in the Exercise class. 
+1. The function nthFibonacci should be defined in the Exercise010 class. 
 2. The function nthFibonacci should return a long, the nth Fibonacci number.
 
 Input: An integer n (0 ≤ n ≤ 50).
@@ -26,11 +26,12 @@ Output: A long representing the nth Fibonacci number.
 
 ## Examples
 
-Exercise.nthFibonacci(1); // Returns 1
-Exercise.nthFibonacci(2); // Returns 1
-Exercise.nthFibonacci(8); // Returns 21
-Exercise.nthFibonacci(12); // Returns 144
-Exercise.nthFibonacci(34); // Returns 5702887
+Exercise010.nthFibonacci(1); // Returns 1
+Exercise010.nthFibonacci(2); // Returns 1
+Exercise010.nthFibonacci(8); // Returns 21
+Exercise010.nthFibonacci(12); // Returns 144
+Exercise010.nthFibonacci(34); // Returns 5702887
+
 Constraints: The input number n is in the range from 0 to 50.
 
 Expected Time Complexity: O(n), linear time complexity.

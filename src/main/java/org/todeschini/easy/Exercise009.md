@@ -16,7 +16,7 @@ In this challenge, you are tasked with creating a function countDigits which wil
 
 ## Requirements
 
-1. The function countDigits should be defined in the Exercise class.
+1. The function countDigits should be defined in the Exercise009 class.
 2. The function countDigits should return an integer, the count of digits in the input number.
 
 Input: An integer number.
@@ -25,10 +25,11 @@ Output: An integer representing the count of digits in the input number.
 
 ## Examples
 
-Exercise.countDigits(10); // Returns 2
-Exercise.countDigits(-123); // Returns 3
-Exercise.countDigits(0); // Returns 1
-Exercise.countDigits(5); // Returns 1
+Exercise009.countDigits(10); // Returns 2
+Exercise009.countDigits(-123); // Returns 3
+Exercise009.countDigits(0); // Returns 1
+Exercise009.countDigits(5); // Returns 1
+
 Constraints: number can be a positive, negative, or zero.
 
 Expected Time Complexity: O(1), constant time complexity.
