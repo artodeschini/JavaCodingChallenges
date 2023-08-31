@@ -51,3 +51,7 @@
 ## 013 Separate 0's and 1's from an Array - Array Segregation
 
 [code](Exercise013.java)
+
+## 014 Separate Even and Odd Numbers - Array Manipulation
+
+[code](Exercise014.java)
