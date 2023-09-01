@@ -55,3 +55,15 @@
 ## 014 Separate Even and Odd Numbers - Array Manipulation
 
 [code](Exercise014.java)
+
+## 015 Counting Capital Letters - String Manipulation
+
+[code](Exercise015.java)
+
+## 016 Sum of Largest and Smallest Element in an Array - Array Operations
+
+[code](Exercise016.java)
+
+## 017 Recursive Exponentiation
+
+[code](Exercise017.java)
