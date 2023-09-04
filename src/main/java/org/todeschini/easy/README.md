@@ -71,3 +71,7 @@
 ## 018 Reverse an Array - Without Using the reverse() Method
 
 [code](Exercise018.java)
+
+## 019 Palindrome Check - String Verification
+
+[code](Exercise019.java)
