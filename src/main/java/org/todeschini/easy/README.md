@@ -67,3 +67,7 @@
 ## 017 Recursive Exponentiation
 
 [code](Exercise017.java)
+
+## 018 Reverse an Array - Without Using the reverse() Method
+
+[code](Exercise018.java)
