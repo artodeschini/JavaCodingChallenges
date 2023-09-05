@@ -2,11 +2,11 @@
 
 ## 001 Finding the Smallest Element - Array Operations
 
-[code](Exercise001.java) with Stream
+[code](Exercise001.java)
 
 ## 002 Counting Vowels - String Operations
 
-[code](Exercise002.java) with Regex
+[code](Exercise002.java)
 
 ## 003 Calculating String Length - String Operations
 
@@ -14,15 +14,15 @@
 
 ## 004 Reversing a String - String Operations
 
-[code](Exercise004.java) with StringBuilder
+[code](Exercise004.java)
 
 ## 005 Finding the Second Largest Element - Array Operations
 
-[code](Exercise005.java) with Stream
+[code](Exercise005.java)
 
 ## 006 Factorial Computation - Recursion
 
-[code](Exercise006.java) with Stream
+[code](Exercise006.java)
 
 ## 007 Remove Spaces from a String - String Manipulation
 
@@ -75,3 +75,7 @@
 ## 019 Palindrome Check - String Verification
 
 [code](Exercise019.java)
+
+## 020 Anagram Check - String Comparison
+
+[code](Exercise020.java)
