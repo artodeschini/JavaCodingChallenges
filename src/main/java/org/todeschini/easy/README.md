@@ -79,3 +79,7 @@
 ## 020 Anagram Check - String Comparison
 
 [code](Exercise020.java)
+
+## 021 Finding First and Last Occurrence - Array Operations
+
+[code](Exercise021.java)
