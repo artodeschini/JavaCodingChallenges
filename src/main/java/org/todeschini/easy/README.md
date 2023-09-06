@@ -83,3 +83,11 @@
 ## 021 Finding First and Last Occurrence - Array Operations
 
 [code](Exercise021.java)
+
+## 022 Calculate Area of a Rectangle - Object-Oriented Programming
+
+[code](Exercise022.java)
+
+## 023 Convert Kilometers to Miles - Basic Operations
+
+[code](Exercise023.java)
