@@ -18,9 +18,4 @@ public class Exercise004 {
                 .collect(StringBuilder::new, StringBuilder::append, StringBuilder::append)
                 .toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(reverseString("ABC"));
-        System.out.println(reverseStringWithStream("ABC"));
-    }
 }

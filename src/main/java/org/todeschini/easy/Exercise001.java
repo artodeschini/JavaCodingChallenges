@@ -5,7 +5,7 @@ import java.util.OptionalInt;
 import java.util.stream.IntStream;
 
 public class Exercise001 {
-    public static int findSmallestElement(int[] arr){
+    public static int findSmallestElementWithStream(int[] arr){
         IntStream intStream = Arrays.stream(arr);
 
         OptionalInt min = intStream.min();
@@ -13,7 +13,13 @@ public class Exercise001 {
         return min.isPresent() ? min.getAsInt() : Integer.MAX_VALUE;
     }
 
-    public static void main(String[] args) {
-        System.out.println(findSmallestElement(new int[] { 10,5,3,2}));
+    public static int findSmallestElement(int[] arr) {
+        int smallest = Integer.MAX_VALUE;
+        for (int i :arr) {
+            if ( i < smallest ) {
+                smallest = i;
+            }
+        }
+        return smallest;
     }
 }

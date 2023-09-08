@@ -29,17 +29,11 @@ public class Exercise002 {
     }
 
     public static int countVowelsWithStream(String str){
+        //FIXME not working correnct
         int count = Arrays.asList(str).stream()
                 .map(s -> s.replaceAll("[aeiou]", "").length())
                 .reduce(0, Integer::sum);
-//        return Arrays.asList(str).stream()
-//                .map(s -> s.replaceAll("[aeiou]", "").length())
-//                .reduce(0, Integer::sum);
         return count;
     }
 
-    public static void main(String[] args) {
-        System.out.println(countVowels("Emanuelle"));
-        System.out.println(countVowelsWithStream("Emanuelle"));
-    }
 }

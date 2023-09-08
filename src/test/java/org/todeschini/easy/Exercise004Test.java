@@ -9,10 +9,6 @@ class Exercise004Test {
     @Test
     void reverseString() {
         assertEquals(Exercise004.reverseString("aeiou"),"uoiea");
-    }
-
-    @Test
-    void reverseStringWithStream() {
         assertEquals(Exercise004.reverseStringWithStream("aeiou"),"uoiea");
     }
 }
