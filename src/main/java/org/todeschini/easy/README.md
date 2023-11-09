@@ -115,3 +115,7 @@
 ## Calculate Simple Interest - Basic Mathematics
 
 [code](Exercise029.java)
+
+## Check Even or Odd - Basic Conditional Statements
+
+[code](Exercise030.java)
