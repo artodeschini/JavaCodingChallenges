@@ -103,3 +103,11 @@
 ## Convert Fahrenheit to Celsius - Temperature Conversion
 
 [code](Exercise026.java)
+
+## Calculating Volume - Cube Operations
+
+[code](Exercise027.java)
+
+## Swap Two Numbers - Variable Operations
+
+[code](Exercise028.java)
