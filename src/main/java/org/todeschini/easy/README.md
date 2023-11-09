@@ -111,3 +111,7 @@
 ## Swap Two Numbers - Variable Operations
 
 [code](Exercise028.java)
+
+## Calculate Simple Interest - Basic Mathematics
+
+[code](Exercise029.java)
