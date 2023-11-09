@@ -10,5 +10,7 @@ class Exercise004Test {
     void reverseString() {
         assertEquals(Exercise004.reverseString("aeiou"),"uoiea");
         assertEquals(Exercise004.reverseStringWithStream("aeiou"),"uoiea");
+        assertEquals(Exercise004.reverseStringWithFor("aeiou"),"uoiea");
+
     }
 }

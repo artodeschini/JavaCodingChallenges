@@ -18,4 +18,14 @@ public class Exercise004 {
                 .collect(StringBuilder::new, StringBuilder::append, StringBuilder::append)
                 .toString();
     }
+
+    public static String reverseStringWithFor(String str) {
+        StringBuilder sb = new StringBuilder();
+
+        for (int i = str.length() -1; i >= 0 ; i--) {
+            sb.append(str.charAt(i));
+        }
+
+        return sb.toString();
+    }
 }

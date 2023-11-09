@@ -91,3 +91,15 @@
 ## 023 Convert Kilometers to Miles - Basic Operations
 
 [code](Exercise023.java)
+
+## 024 Calculate Profit or Loss - Basic Operations
+
+[code](Exercise024.java)
+
+## 025 Body Mass Index Calculation - Arithmetic Operations
+
+[code](Exercise025.java)
+
+## Convert Fahrenheit to Celsius - Temperature Conversion
+
+[code](Exercise026.java)
