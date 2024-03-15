@@ -6,7 +6,7 @@ In this repository I try to use de best form to solve de challenges with Api Jav
 
 ## requirements
 
-* Java 8+
+* Java 17+
 * Maven 3.6
 
 ## Section 1: Java Easy Coding Challenges

@@ -119,3 +119,7 @@
 ## Check Even or Odd - Basic Conditional Statements
 
 [code](Exercise030.java)
+
+## Find Youngest Brother - Class and Object Operations
+
+[code](Exercise031.java)
