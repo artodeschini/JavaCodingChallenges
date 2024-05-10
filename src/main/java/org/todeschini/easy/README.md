@@ -100,26 +100,34 @@
 
 [code](Exercise025.java)
 
-## Convert Fahrenheit to Celsius - Temperature Conversion
+## 026 Convert Fahrenheit to Celsius - Temperature Conversion
 
 [code](Exercise026.java)
 
-## Calculating Volume - Cube Operations
+## 027 Calculating Volume - Cube Operations
 
 [code](Exercise027.java)
 
-## Swap Two Numbers - Variable Operations
+## 028 Swap Two Numbers - Variable Operations
 
 [code](Exercise028.java)
 
-## Calculate Simple Interest - Basic Mathematics
+## 029 Calculate Simple Interest - Basic Mathematics
 
 [code](Exercise029.java)
 
-## Check Even or Odd - Basic Conditional Statements
+## 030 Check Even or Odd - Basic Conditional Statements
 
 [code](Exercise030.java)
 
-## Find Youngest Brother - Class and Object Operations
+## 031 Find Youngest Brother - Class and Object Operations
 
 [code](Exercise031.java)
+
+## 032 Printing FizzBuzz - Loop and Conditional Statements
+
+[code](Exercise032.java)
+
+## Maximum Possible Handshakes - Combinatorics
+
+[code](Exercise033.java)
